@@ -20,8 +20,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@peach-design/icons": "^0.0.11",
+    "@peach-design/icons": "^0.0.1",
     "@peach-design/input": "^0.0.8"
   },
-  "gitHead": "2585f7562c909d58d5be82062f475b9bf120c04e"
+  "gitHead": "9fbbed4a0d4e9cd098a7496ae12409af610d4882"
 }
