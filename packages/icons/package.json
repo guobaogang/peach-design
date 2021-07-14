@@ -22,7 +22,7 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "iconfont-rn",
+    "build": "npx iconfont-rn",
     "prepublishOnly": "yarn build"
   },
   "bugs": {
@@ -33,5 +33,5 @@
     "react-native-iconfont-cli": "^2.2.3",
     "react-native-svg": "^12.1.1"
   },
-  "gitHead": "046aba2b62e847848fcdcc3f39c83d793435d432"
+  "gitHead": "3118049bc13018d7810408c3cdc79ec713a916f4"
 }
