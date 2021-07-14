@@ -3,18 +3,18 @@
 0 silly argv   composed: 'publish',
 0 silly argv   lernaVersion: '4.0.0',
 0 silly argv   '$0': 'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
-0 silly argv   bump: '0.0.3'
+0 silly argv   bump: '0.0.4'
 0 silly argv }
 1 notice cli v4.0.0
 2 verbose rootPath D:\test\peach-design
 3 info versioning independent
-4 verbose session 41c300cf0d8b2c01
+4 verbose session dd40c24e4a26ff79
 5 verbose user-agent lerna/4.0.0/node@v16.4.2+x64 (win32)
 6 silly argv {
 6 silly argv   _: [ 'publish' ],
 6 silly argv   composed: 'publish',
 6 silly argv   lernaVersion: '4.0.0',
-6 silly argv   bump: '0.0.3'
+6 silly argv   bump: '0.0.4'
 6 silly argv }
 7 verbose rootPath D:\test\peach-design
 8 silly isAnythingCommitted
@@ -26,8 +26,8 @@
 14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "@peach-design/input@0.0.2-1-gb4dc49a" => {"lastTagName":"@peach-design/input@0.0.2","lastVersion":"0.0.2","refCount":"1","sha":"b4dc49a","isDirty":false}
-18 info Looking for changed packages since @peach-design/input@0.0.2
+17 silly git-describe.sync "@peach-design/input@0.0.3-1-gd3916cc" => {"lastTagName":"@peach-design/input@0.0.3","lastVersion":"0.0.3","refCount":"1","sha":"d3916cc","isDirty":false}
+18 info Looking for changed packages since @peach-design/input@0.0.3
 19 info ignoring diff in paths matching [ 'ignored-file', '**/__tests__/**', '**/*.md' ]
 20 silly checking diff packages/input
 21 silly found diff in packages/input/package.json
@@ -37,8 +37,8 @@
 25 verbose filtered diff [ 'packages/peach-design/package.json' ]
 26 verbose updated @peach-design/input
 27 verbose updated peach-design
-28 verbose git-describe undefined => "@peach-design/input@0.0.2-1-gb4dc49a"
-29 silly git-describe parsed => {"lastTagName":"@peach-design/input@0.0.2","lastVersion":"0.0.2","refCount":"1","sha":"b4dc49a","isDirty":false}
+28 verbose git-describe undefined => "@peach-design/input@0.0.3-1-gd3916cc"
+29 silly git-describe parsed => {"lastTagName":"@peach-design/input@0.0.3","lastVersion":"0.0.3","refCount":"1","sha":"d3916cc","isDirty":false}
 30 info execute Skipping releases
 31 silly lifecycle No script for "preversion" in "root", continuing
 32 silly lifecycle No script for "preversion" in "@peach-design/input", continuing
@@ -62,12 +62,12 @@
 36 silly npa }
 37 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 38 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-39 silly independent writing new entry: "## [0.0.3](https://github.com/guobaogang/peach-design/compare/@peach-design/input@0.0.2...@peach-design/input@0.0.3) (2021-07-14)\n\n**Note:** Version bump only for package @peach-design/input\n\n\n\n"
+39 silly independent writing new entry: "## [0.0.4](https://github.com/guobaogang/peach-design/compare/@peach-design/input@0.0.3...@peach-design/input@0.0.4) (2021-07-14)\n\n**Note:** Version bump only for package @peach-design/input\n\n\n\n"
 40 verbose independent wrote D:\test\peach-design\packages\input\CHANGELOG.md
 41 silly lifecycle No script for "preversion" in "peach-design", continuing
 42 silly lifecycle No script for "version" in "peach-design", continuing
 43 silly independent for peach-design at D:\test\peach-design\packages\peach-design
-44 silly independent writing new entry: "## [0.0.3](https://github.com/guobaogang/peach-design/compare/peach-design@0.0.2...peach-design@0.0.3) (2021-07-14)\n\n**Note:** Version bump only for package peach-design\n\n\n\n"
+44 silly independent writing new entry: "## [0.0.4](https://github.com/guobaogang/peach-design/compare/peach-design@0.0.3...peach-design@0.0.4) (2021-07-14)\n\n**Note:** Version bump only for package peach-design\n\n\n\n"
 45 verbose independent wrote D:\test\peach-design\packages\peach-design\CHANGELOG.md
 46 silly lifecycle No script for "version" in "root", continuing
 47 silly gitAdd [
@@ -79,22 +79,22 @@
 47 silly gitAdd ]
 48 silly gitCommit chore(release): publish
 48 silly gitCommit
-48 silly gitCommit  - @peach-design/input@0.0.3
-48 silly gitCommit  - peach-design@0.0.3
+48 silly gitCommit  - @peach-design/input@0.0.4
+48 silly gitCommit  - peach-design@0.0.4
 49 verbose git [
 49 verbose git   'commit',
 49 verbose git   '-F',
-49 verbose git   'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\72fd67cc-9320-43a7-97c2-173958f558ec\\lerna-commit.txt'
+49 verbose git   'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\1dec9118-63cf-4d3b-98df-ea2581c7d209\\lerna-commit.txt'
 49 verbose git ]
-50 silly gitTag @peach-design/input@0.0.3
+50 silly gitTag @peach-design/input@0.0.4
 51 verbose git [
 51 verbose git   'tag',
-51 verbose git   '@peach-design/input@0.0.3',
+51 verbose git   '@peach-design/input@0.0.4',
 51 verbose git   '-m',
-51 verbose git   '@peach-design/input@0.0.3'
+51 verbose git   '@peach-design/input@0.0.4'
 51 verbose git ]
-52 silly gitTag peach-design@0.0.3
-53 verbose git [ 'tag', 'peach-design@0.0.3', '-m', 'peach-design@0.0.3' ]
+52 silly gitTag peach-design@0.0.4
+53 verbose git [ 'tag', 'peach-design@0.0.4', '-m', 'peach-design@0.0.4' ]
 54 silly lifecycle No script for "postversion" in "@peach-design/input", continuing
 55 silly lifecycle No script for "postversion" in "peach-design", continuing
 56 silly lifecycle No script for "postversion" in "root", continuing
@@ -107,7 +107,7 @@
 62 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
 62 warn ENOLICENSE See https://choosealicense.com for additional guidance.
 63 silly getCurrentSHA
-64 verbose getCurrentSHA 556329addf8d379571e9fc47170ca894841c4317
+64 verbose getCurrentSHA 57994ddb5c2ad16d6ff5947d93bf5ed141356455
 65 silly lifecycle No script for "prepublish" in "root", continuing
 66 silly lifecycle No script for "prepare" in "root", continuing
 67 silly lifecycle No script for "prepublishOnly" in "root", continuing
@@ -128,7 +128,7 @@
 82 verbose packed packages\peach-design
 83 silly lifecycle No script for "postpack" in "root", continuing
 84 verbose publish @peach-design/input
-85 silly FetchError: request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.23.35:443
+85 silly FetchError: request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.18.35:443
 85 silly     at ClientRequest.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass-fetch\lib\index.js:97:14)
 85 silly     at ClientRequest.emit (node:events:394:28)
 85 silly     at TLSSocket.socketErrorListener (node:_http_client:447:9)
@@ -136,7 +136,7 @@
 85 silly     at emitErrorNT (node:internal/streams/destroy:193:8)
 85 silly     at emitErrorCloseNT (node:internal/streams/destroy:158:3)
 85 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
-85 silly  FetchError: request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.23.35:443
+85 silly  FetchError: request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.18.35:443
 85 silly     at ClientRequest.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass-fetch\lib\index.js:97:14)
 85 silly     at ClientRequest.emit (node:events:394:28)
 85 silly     at TLSSocket.socketErrorListener (node:_http_client:447:9)
@@ -147,12 +147,12 @@
 85 silly   code: 'ETIMEDOUT',
 85 silly   errno: 'ETIMEDOUT',
 85 silly   syscall: 'connect',
-85 silly   address: '104.16.23.35',
+85 silly   address: '104.16.18.35',
 85 silly   port: 443,
 85 silly   type: 'system'
 85 silly }
-86 error ETIMEDOUT request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.23.35:443
-87 error FetchError: request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.23.35:443
+86 error ETIMEDOUT request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.18.35:443
+87 error FetchError: request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.18.35:443
 87 error     at ClientRequest.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass-fetch\lib\index.js:97:14)
 87 error     at ClientRequest.emit (node:events:394:28)
 87 error     at TLSSocket.socketErrorListener (node:_http_client:447:9)
