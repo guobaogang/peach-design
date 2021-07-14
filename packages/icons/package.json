@@ -21,7 +21,9 @@
     "url": "git+https://github.com/guobaogang/peach-design.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "iconfont-rn",
+    "prepublishOnly": "yarn build"
   },
   "bugs": {
     "url": "https://github.com/guobaogang/peach-design/issues"
@@ -30,5 +32,6 @@
   "devDependencies": {
     "react-native-iconfont-cli": "^2.2.3",
     "react-native-svg": "^12.1.1"
-  }
+  },
+  "gitHead": "046aba2b62e847848fcdcc3f39c83d793435d432"
 }
