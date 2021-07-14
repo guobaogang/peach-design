@@ -14,6 +14,7 @@
     "lib"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
@@ -23,6 +24,5 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "publishConfig.access": "public",
-  "gitHead": "0191d424e049f5d2975a53c366fcdffb9f32e09e"
+  "gitHead": "2585f7562c909d58d5be82062f475b9bf120c04e"
 }
