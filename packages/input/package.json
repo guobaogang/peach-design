@@ -21,7 +21,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "gitHead": "2585f7562c909d58d5be82062f475b9bf120c04e"
