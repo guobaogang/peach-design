@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.6](https://github.com/guobaogang/peach-design/compare/@peach-design/input@0.0.5...@peach-design/input@0.0.6) (2021-07-14)
+
+**Note:** Version bump only for package @peach-design/input
+
+
+
+
+
 ## [0.0.5](https://github.com/guobaogang/peach-design/compare/@peach-design/input@0.0.4...@peach-design/input@0.0.5) (2021-07-14)
 
 **Note:** Version bump only for package @peach-design/input
