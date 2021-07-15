@@ -19,7 +19,7 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "babel src --out-dir lib"
+    "build": "babel src --out-file lib/input.js"
   },
   "dependencies": {
     "react": "^17.0.2",
