@@ -1,7 +1,7 @@
 import Input from '@peach-design/input';
 import Button from '@peach-design/button';
 
-export default {
+module.exports = {
     Input,
     Button
 }

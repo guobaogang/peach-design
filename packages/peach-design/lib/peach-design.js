@@ -1,9 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
 var _input = require('@peach-design/input');
 
 var _input2 = _interopRequireDefault(_input);
@@ -14,7 +10,7 @@ var _button2 = _interopRequireDefault(_button);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = {
+module.exports = {
     Input: _input2.default,
     Button: _button2.default
 };
