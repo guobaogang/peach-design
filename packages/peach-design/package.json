@@ -18,12 +18,11 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "webpack --output-path='./lib' --output-filename='peach-design.js'",
-    "prepublishOnly": "yarn build"
+    "build": "webpack --mode production --output-path='./lib' --output-filename='peach-design.js'"
   },
   "dependencies": {
     "@peach-design/button": "^1.0.2",
     "@peach-design/input": "^0.0.19"
   },
-  "gitHead": "00e9f57ba8d5077d93c5fd152102e8d7d5691fed"
+  "gitHead": "be2b83971b47238521b6b4112a6a0a999037789f"
 }
