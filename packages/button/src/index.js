@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-export default class Input extends Component {
+export default class Button extends Component {
 	constructor(props) {
 		super(props);
 	}
@@ -7,8 +7,8 @@ export default class Input extends Component {
 	render() {
 		return (
 			<div>
-				我的组件库-input
-                <input/>
+				我的组件库-button
+                <button/>
 			</div>
 		);
 	}
