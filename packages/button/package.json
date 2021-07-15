@@ -1,6 +1,6 @@
 {
   "name": "@peach-design/button",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "guobaogang <guobg828@163.com>",
@@ -34,8 +34,8 @@
   },
   "gitHead": "be2b83971b47238521b6b4112a6a0a999037789f",
   "devDependencies": {
+    "@babel/core": "^7.13.8",
     "@babel/preset-react": "^7.14.5",
-    "babel-loader": "^8.2.2",
-    "@babel/core": "^7.13.8"
+    "babel-loader": "^8.2.2"
   }
 }
