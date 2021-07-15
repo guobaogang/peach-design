@@ -18,7 +18,9 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack --output-path='./lib' --output-filename='input.js'",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "react": "^17.0.2",

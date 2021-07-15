@@ -21,7 +21,9 @@
     "url": "git+https://github.com/guobaogang/peach-design.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack --output-path='./lib' --output-filename='button.js'",
+    "prepublishOnly": "yarn build"
   },
   "bugs": {
     "url": "https://github.com/guobaogang/peach-design/issues"

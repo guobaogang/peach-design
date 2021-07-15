@@ -17,7 +17,9 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack --output-path='./lib' --output-filename='peach-design.js'",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "@peach-design/button": "^1.0.1",
