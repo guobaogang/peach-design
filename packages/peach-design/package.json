@@ -1,6 +1,6 @@
 {
   "name": "peach-design",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "guobaogang <guobg828@163.com>",
@@ -21,8 +21,8 @@
     "build": "babel src --out-file lib/peach-design.js"
   },
   "dependencies": {
-    "@peach-design/button": "^1.0.5",
-    "@peach-design/input": "^0.0.22"
+    "@peach-design/button": "^1.0.6",
+    "@peach-design/input": "^0.0.23"
   },
   "gitHead": "be2b83971b47238521b6b4112a6a0a999037789f",
   "devDependencies": {
