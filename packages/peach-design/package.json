@@ -25,7 +25,7 @@
     "@peach-design/checkbox": "^1.0.1",
     "@peach-design/input": "^0.0.23"
   },
-  "gitHead": "be2b83971b47238521b6b4112a6a0a999037789f",
+  "gitHead": "4a215cec82bf7dcdde3756cbdb73f61f76383a0f",
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/preset-react": "^7.14.5",
