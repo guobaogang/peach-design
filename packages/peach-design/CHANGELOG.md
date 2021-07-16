@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.25](https://github.com/guobaogang/peach-design/compare/peach-design@0.0.24...peach-design@0.0.25) (2021-07-16)
+
+**Note:** Version bump only for package peach-design
+
+
+
+
+
 ## [0.0.24](https://github.com/guobaogang/peach-design/compare/peach-design@0.0.23...peach-design@0.0.24) (2021-07-16)
 
 **Note:** Version bump only for package peach-design
