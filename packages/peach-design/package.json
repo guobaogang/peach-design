@@ -1,6 +1,6 @@
 {
   "name": "peach-design",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "guobaogang <guobg828@163.com>",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@peach-design/button": "^1.0.6",
-    "@peach-design/checkbox": "^1.0.2",
+    "@peach-design/checkbox": "^1.0.3",
     "@peach-design/input": "^0.0.23"
   },
   "gitHead": "7975e0192952ef6353b4490a0114d9628dd60646",
