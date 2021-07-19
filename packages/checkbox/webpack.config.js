@@ -12,6 +12,10 @@ module.exports = {
         extensions: ['.ts', '.tsx', '.js', '.json'],
         symlinks: true
     },
+    externals: {
+        "react": 'react',
+        "react-dom": 'react-dom'
+    },
     module: {
         rules: [{
                 test: /\.(ts|js)x?$/,
