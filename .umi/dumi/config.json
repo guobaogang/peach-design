@@ -1,0 +1,71 @@
+{
+  "menus": {
+    "en-US": {
+      "/input": [
+        {
+          "path": "/input",
+          "title": "Input",
+          "meta": {}
+        }
+      ],
+      "/button": [
+        {
+          "path": "/button",
+          "title": "Button",
+          "meta": {}
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {
+    "en-US": [
+      {
+        "path": "/input",
+        "title": "Input"
+      },
+      {
+        "path": "/button",
+        "title": "Button"
+      },
+      {
+        "title": "Ecosystem",
+        "children": [
+          {
+            "title": "useTable",
+            "path": "https://usetable-ahooks.js.org/"
+          }
+        ]
+      },
+      {
+        "title": "v1.x",
+        "path": "http://hooks.umijs.org/"
+      },
+      {
+        "title": "GitHub",
+        "path": "https://github.com/alibaba/hooks"
+      },
+      {
+        "title": "Changelog",
+        "path": "https://github.com/alibaba/hooks/releases"
+      },
+      {
+        "title": "国内镜像",
+        "path": "https://ahooks.gitee.io/zh-CN"
+      }
+    ]
+  },
+  "title": "ahooks",
+  "logo": "/logo.svg",
+  "mode": "site",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {}
+}
