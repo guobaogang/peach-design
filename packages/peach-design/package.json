@@ -23,7 +23,8 @@
   "dependencies": {
     "@peach-design/button": "^1.0.6",
     "@peach-design/checkbox": "^1.0.5",
-    "@peach-design/input": "^0.0.23"
+    "@peach-design/input": "^0.0.23",
+    "@peach-design/select": "^1.0.0"
   },
   "gitHead": "a4ff3b0e0a0cc73b5feff984d3968dc418af0b2c",
   "devDependencies": {
