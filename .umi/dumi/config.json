@@ -1,6 +1,20 @@
 {
   "menus": {
     "en-US": {
+      "/button": [
+        {
+          "path": "/button",
+          "title": "Button",
+          "meta": {}
+        }
+      ],
+      "/checkbox": [
+        {
+          "path": "/checkbox",
+          "title": "Checkbox",
+          "meta": {}
+        }
+      ],
       "/input": [
         {
           "path": "/input",
@@ -8,10 +22,10 @@
           "meta": {}
         }
       ],
-      "/button": [
+      "/docs": [
         {
-          "path": "/button",
-          "title": "Button",
+          "path": "/docs",
+          "title": "2. 单输入",
           "meta": {}
         }
       ]
@@ -26,6 +40,10 @@
   "navs": {
     "en-US": [
       {
+        "path": "/docs",
+        "title": "Docs"
+      },
+      {
         "path": "/input",
         "title": "Input"
       },
@@ -34,33 +52,12 @@
         "title": "Button"
       },
       {
-        "title": "Ecosystem",
-        "children": [
-          {
-            "title": "useTable",
-            "path": "https://usetable-ahooks.js.org/"
-          }
-        ]
-      },
-      {
-        "title": "v1.x",
-        "path": "http://hooks.umijs.org/"
-      },
-      {
-        "title": "GitHub",
-        "path": "https://github.com/alibaba/hooks"
-      },
-      {
-        "title": "Changelog",
-        "path": "https://github.com/alibaba/hooks/releases"
-      },
-      {
-        "title": "国内镜像",
-        "path": "https://ahooks.gitee.io/zh-CN"
+        "path": "/checkbox",
+        "title": "Checkbox"
       }
     ]
   },
-  "title": "ahooks",
+  "title": "peach-design",
   "logo": "/logo.svg",
   "mode": "site",
   "repository": {

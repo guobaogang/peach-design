@@ -57,12 +57,44 @@ export function getRoutes() {
     "wrappers": [dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'D:/test/peach-design3/node_modules/@umijs/preset-dumi/lib/theme/layout')}), dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'D:/test/peach-design3/node_modules/dumi-theme-default/es/layout.js')})],
     "routes": [
       {
+        "path": "/button",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__button__src__button.md' */'D:/test/peach-design3/packages/button/src/button.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/button/src/button.md",
+          "updatedTime": 1626783690000,
+          "slugs": [],
+          "nav": {
+            "path": "/button",
+            "title": "Button"
+          },
+          "title": "Button"
+        },
+        "title": "Button"
+      },
+      {
+        "path": "/checkbox",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__checkbox__src__checkbox.md' */'D:/test/peach-design3/packages/checkbox/src/checkbox.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/checkbox/src/checkbox.md",
+          "updatedTime": 1626783690000,
+          "slugs": [],
+          "nav": {
+            "path": "/checkbox",
+            "title": "Checkbox"
+          },
+          "title": "Checkbox"
+        },
+        "title": "Checkbox"
+      },
+      {
         "path": "/input",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__input__src__input.md' */'D:/test/peach-design3/packages/input/src/input.md')}),
         "exact": true,
         "meta": {
           "filePath": "packages/input/src/input.md",
-          "updatedTime": 1626782698819,
+          "updatedTime": 1626783690000,
           "slugs": [],
           "nav": {
             "path": "/input",
@@ -73,23 +105,44 @@ export function getRoutes() {
         "title": "Input"
       },
       {
-        "path": "/button",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__button__src__button.md' */'D:/test/peach-design3/packages/button/src/button.md')}),
+        "path": "/docs",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__docs.md' */'D:/test/peach-design3/docs/docs.md')}),
         "exact": true,
         "meta": {
-          "filePath": "packages/button/src/button.md",
-          "updatedTime": 1626782541270,
-          "slugs": [],
+          "filePath": "docs/docs.md",
+          "updatedTime": 1626832735708,
+          "slugs": [
+            {
+              "depth": 3,
+              "value": "2. 单输入",
+              "heading": "2-单输入"
+            },
+            {
+              "depth": 3,
+              "value": "3. 多必选参数",
+              "heading": "3-多必选参数"
+            },
+            {
+              "depth": 3,
+              "value": "4. 多非必选参数",
+              "heading": "4-多非必选参数"
+            },
+            {
+              "depth": 3,
+              "value": "5. 必选参数 + 非必选参数",
+              "heading": "5-必选参数--非必选参数"
+            }
+          ],
+          "title": "2. 单输入",
           "nav": {
-            "path": "/button",
-            "title": "Button"
-          },
-          "title": "Button"
+            "path": "/docs",
+            "title": "Docs"
+          }
         },
-        "title": "Button"
+        "title": "2. 单输入"
       }
     ],
-    "title": "ahooks",
+    "title": "peach-design",
     "component": (props) => props.children
   }
 ];
