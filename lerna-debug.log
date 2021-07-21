@@ -1,22 +1,15 @@
-0 silly argv {
-0 silly argv   _: [ 'publish' ],
+0 silly argv { _: [ 'publish' ],
 0 silly argv   composed: 'publish',
 0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': 'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
-0 silly argv   bump: '0.0.4'
-0 silly argv }
+0 silly argv   '$0':
+0 silly argv    'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js' }
 1 notice cli v4.0.0
-2 verbose rootPath D:\test\peach-design
+2 verbose rootPath D:\test\peach-design3
 3 info versioning independent
-4 verbose session dd40c24e4a26ff79
-5 verbose user-agent lerna/4.0.0/node@v16.4.2+x64 (win32)
-6 silly argv {
-6 silly argv   _: [ 'publish' ],
-6 silly argv   composed: 'publish',
-6 silly argv   lernaVersion: '4.0.0',
-6 silly argv   bump: '0.0.4'
-6 silly argv }
-7 verbose rootPath D:\test\peach-design
+4 verbose session 6bce867775f41645
+5 verbose user-agent lerna/4.0.0/node@v11.15.0+x64 (win32)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
+7 verbose rootPath D:\test\peach-design3
 8 silly isAnythingCommitted
 9 verbose isAnythingCommitted 1
 10 silly getCurrentBranch
@@ -26,136 +19,469 @@
 14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "@peach-design/input@0.0.3-1-gd3916cc" => {"lastTagName":"@peach-design/input@0.0.3","lastVersion":"0.0.3","refCount":"1","sha":"d3916cc","isDirty":false}
-18 info Looking for changed packages since @peach-design/input@0.0.3
+17 silly git-describe.sync "@peach-design/checkbox@1.0.6-2-g783dd5b" => {"lastTagName":"@peach-design/checkbox@1.0.6","lastVersion":"1.0.6","refCount":"2","sha":"783dd5b","isDirty":false}
+18 info Looking for changed packages since @peach-design/checkbox@1.0.6
 19 info ignoring diff in paths matching [ 'ignored-file', '**/__tests__/**', '**/*.md' ]
-20 silly checking diff packages/input
-21 silly found diff in packages/input/package.json
-22 verbose filtered diff [ 'packages/input/package.json' ]
-23 silly checking diff packages/peach-design
-24 silly found diff in packages/peach-design/package.json
-25 verbose filtered diff [ 'packages/peach-design/package.json' ]
-26 verbose updated @peach-design/input
-27 verbose updated peach-design
-28 verbose git-describe undefined => "@peach-design/input@0.0.3-1-gd3916cc"
-29 silly git-describe parsed => {"lastTagName":"@peach-design/input@0.0.3","lastVersion":"0.0.3","refCount":"1","sha":"d3916cc","isDirty":false}
-30 info execute Skipping releases
-31 silly lifecycle No script for "preversion" in "root", continuing
-32 silly lifecycle No script for "preversion" in "@peach-design/input", continuing
-33 silly lifecycle No script for "version" in "@peach-design/input", continuing
-34 silly independent for @peach-design/input at D:\test\peach-design\packages\input
-35 verbose getChangelogConfig using preset "conventional-changelog-angular"
-36 silly npa Result {
-36 silly npa   type: 'tag',
-36 silly npa   registry: true,
-36 silly npa   where: undefined,
-36 silly npa   raw: 'conventional-changelog-angular',
-36 silly npa   name: 'conventional-changelog-angular',
-36 silly npa   escapedName: 'conventional-changelog-angular',
-36 silly npa   scope: undefined,
-36 silly npa   rawSpec: '',
-36 silly npa   saveSpec: null,
-36 silly npa   fetchSpec: 'latest',
-36 silly npa   gitRange: undefined,
-36 silly npa   gitCommittish: undefined,
-36 silly npa   hosted: undefined
-36 silly npa }
-37 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
-38 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-39 silly independent writing new entry: "## [0.0.4](https://github.com/guobaogang/peach-design/compare/@peach-design/input@0.0.3...@peach-design/input@0.0.4) (2021-07-14)\n\n**Note:** Version bump only for package @peach-design/input\n\n\n\n"
-40 verbose independent wrote D:\test\peach-design\packages\input\CHANGELOG.md
-41 silly lifecycle No script for "preversion" in "peach-design", continuing
-42 silly lifecycle No script for "version" in "peach-design", continuing
-43 silly independent for peach-design at D:\test\peach-design\packages\peach-design
-44 silly independent writing new entry: "## [0.0.4](https://github.com/guobaogang/peach-design/compare/peach-design@0.0.3...peach-design@0.0.4) (2021-07-14)\n\n**Note:** Version bump only for package peach-design\n\n\n\n"
-45 verbose independent wrote D:\test\peach-design\packages\peach-design\CHANGELOG.md
-46 silly lifecycle No script for "version" in "root", continuing
-47 silly gitAdd [
-47 silly gitAdd   'packages/input/package.json',
-47 silly gitAdd   'packages/input/package-lock.json',
-47 silly gitAdd   'packages/input/CHANGELOG.md',
-47 silly gitAdd   'packages/peach-design/package.json',
-47 silly gitAdd   'packages/peach-design/CHANGELOG.md'
-47 silly gitAdd ]
-48 silly gitCommit chore(release): publish
-48 silly gitCommit
-48 silly gitCommit  - @peach-design/input@0.0.4
-48 silly gitCommit  - peach-design@0.0.4
-49 verbose git [
-49 verbose git   'commit',
-49 verbose git   '-F',
-49 verbose git   'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\1dec9118-63cf-4d3b-98df-ea2581c7d209\\lerna-commit.txt'
-49 verbose git ]
-50 silly gitTag @peach-design/input@0.0.4
-51 verbose git [
-51 verbose git   'tag',
-51 verbose git   '@peach-design/input@0.0.4',
-51 verbose git   '-m',
-51 verbose git   '@peach-design/input@0.0.4'
-51 verbose git ]
-52 silly gitTag peach-design@0.0.4
-53 verbose git [ 'tag', 'peach-design@0.0.4', '-m', 'peach-design@0.0.4' ]
-54 silly lifecycle No script for "postversion" in "@peach-design/input", continuing
-55 silly lifecycle No script for "postversion" in "peach-design", continuing
-56 silly lifecycle No script for "postversion" in "root", continuing
-57 info git Pushing tags...
-58 silly gitPush origin master
-59 info publish Publishing packages to npm...
-60 notice Skipping all user and access validation due to third-party registry
-61 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
-62 warn ENOLICENSE Packages @peach-design/input and peach-design are missing a license.
-62 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
-62 warn ENOLICENSE See https://choosealicense.com for additional guidance.
-63 silly getCurrentSHA
-64 verbose getCurrentSHA 57994ddb5c2ad16d6ff5947d93bf5ed141356455
-65 silly lifecycle No script for "prepublish" in "root", continuing
-66 silly lifecycle No script for "prepare" in "root", continuing
-67 silly lifecycle No script for "prepublishOnly" in "root", continuing
-68 silly lifecycle No script for "prepack" in "root", continuing
-69 verbose pack-directory packages\input
-70 silly lifecycle No script for "prepublish" in "@peach-design/input", continuing
-71 silly lifecycle No script for "prepare" in "@peach-design/input", continuing
-72 silly lifecycle No script for "prepublishOnly" in "@peach-design/input", continuing
-73 silly lifecycle No script for "prepack" in "@peach-design/input", continuing
-74 silly lifecycle No script for "postpack" in "@peach-design/input", continuing
-75 verbose packed packages\input
-76 verbose pack-directory packages\peach-design
-77 silly lifecycle No script for "prepublish" in "peach-design", continuing
-78 silly lifecycle No script for "prepare" in "peach-design", continuing
-79 silly lifecycle No script for "prepublishOnly" in "peach-design", continuing
-80 silly lifecycle No script for "prepack" in "peach-design", continuing
-81 silly lifecycle No script for "postpack" in "peach-design", continuing
-82 verbose packed packages\peach-design
-83 silly lifecycle No script for "postpack" in "root", continuing
-84 verbose publish @peach-design/input
-85 silly FetchError: request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.18.35:443
-85 silly     at ClientRequest.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass-fetch\lib\index.js:97:14)
-85 silly     at ClientRequest.emit (node:events:394:28)
-85 silly     at TLSSocket.socketErrorListener (node:_http_client:447:9)
-85 silly     at TLSSocket.emit (node:events:406:35)
-85 silly     at emitErrorNT (node:internal/streams/destroy:193:8)
-85 silly     at emitErrorCloseNT (node:internal/streams/destroy:158:3)
-85 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
-85 silly  FetchError: request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.18.35:443
-85 silly     at ClientRequest.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass-fetch\lib\index.js:97:14)
-85 silly     at ClientRequest.emit (node:events:394:28)
-85 silly     at TLSSocket.socketErrorListener (node:_http_client:447:9)
-85 silly     at TLSSocket.emit (node:events:406:35)
-85 silly     at emitErrorNT (node:internal/streams/destroy:193:8)
-85 silly     at emitErrorCloseNT (node:internal/streams/destroy:158:3)
-85 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
-85 silly   code: 'ETIMEDOUT',
-85 silly   errno: 'ETIMEDOUT',
-85 silly   syscall: 'connect',
-85 silly   address: '104.16.18.35',
-85 silly   port: 443,
-85 silly   type: 'system'
-85 silly }
-86 error ETIMEDOUT request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.18.35:443
-87 error FetchError: request to https://registry.npmjs.org/@peach-design%2finput failed, reason: connect ETIMEDOUT 104.16.18.35:443
-87 error     at ClientRequest.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass-fetch\lib\index.js:97:14)
-87 error     at ClientRequest.emit (node:events:394:28)
-87 error     at TLSSocket.socketErrorListener (node:_http_client:447:9)
-87 error     at TLSSocket.emit (node:events:406:35)
-87 error     at emitErrorNT (node:internal/streams/destroy:193:8)
-87 error     at emitErrorCloseNT (node:internal/streams/destroy:158:3)
+20 silly checking diff packages/button
+21 silly found diff in packages/button/node_modules/.bin/babel
+21 silly found diff in packages/button/node_modules/.bin/babel-doctor
+21 silly found diff in packages/button/node_modules/.bin/babel-doctor.cmd
+21 silly found diff in packages/button/node_modules/.bin/babel-doctor.ps1
+21 silly found diff in packages/button/node_modules/.bin/babel-external-helpers
+21 silly found diff in packages/button/node_modules/.bin/babel-external-helpers.cmd
+21 silly found diff in packages/button/node_modules/.bin/babel-external-helpers.ps1
+21 silly found diff in packages/button/node_modules/.bin/babel-node
+21 silly found diff in packages/button/node_modules/.bin/babel-node.cmd
+21 silly found diff in packages/button/node_modules/.bin/babel-node.ps1
+21 silly found diff in packages/button/node_modules/.bin/babel.cmd
+21 silly found diff in packages/button/node_modules/.bin/babel.ps1
+21 silly found diff in packages/button/src/button.md
+22 verbose filtered diff [ 'packages/button/node_modules/.bin/babel',
+22 verbose filtered diff   'packages/button/node_modules/.bin/babel-doctor',
+22 verbose filtered diff   'packages/button/node_modules/.bin/babel-doctor.cmd',
+22 verbose filtered diff   'packages/button/node_modules/.bin/babel-doctor.ps1',
+22 verbose filtered diff   'packages/button/node_modules/.bin/babel-external-helpers',
+22 verbose filtered diff   'packages/button/node_modules/.bin/babel-external-helpers.cmd',
+22 verbose filtered diff   'packages/button/node_modules/.bin/babel-external-helpers.ps1',
+22 verbose filtered diff   'packages/button/node_modules/.bin/babel-node',
+22 verbose filtered diff   'packages/button/node_modules/.bin/babel-node.cmd',
+22 verbose filtered diff   'packages/button/node_modules/.bin/babel-node.ps1',
+22 verbose filtered diff   'packages/button/node_modules/.bin/babel.cmd',
+22 verbose filtered diff   'packages/button/node_modules/.bin/babel.ps1' ]
+23 silly checking diff packages/checkbox
+24 silly found diff in packages/checkbox/node_modules/@babel/core/LICENSE
+24 silly found diff in packages/checkbox/node_modules/@babel/core/README.md
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/cache-contexts.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/caching.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/config-chain.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/config-descriptors.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/files/configuration.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/files/import.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/files/index-browser.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/files/index.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/files/module-types.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/files/package.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/files/plugins.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/files/types.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/files/utils.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/full.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/helpers/config-api.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/helpers/environment.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/index.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/item.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/partial.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/pattern-to-regex.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/plugin.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/printer.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/resolve-targets-browser.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/resolve-targets.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/util.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/validation/option-assertions.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/validation/options.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/validation/plugins.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/config/validation/removed.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/gensync-utils/async.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/gensync-utils/fs.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/index.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/parse.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/parser/index.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/parser/util/missing-plugin-helper.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/tools/build-external-helpers.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transform-ast.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transform-file-browser.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transform-file.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transform.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transformation/block-hoist-plugin.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transformation/file/file.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transformation/file/generate.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transformation/file/merge-map.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transformation/index.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transformation/normalize-file.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transformation/normalize-opts.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transformation/plugin-pass.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transformation/util/clone-deep-browser.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/lib/transformation/util/clone-deep.js
+24 silly found diff in packages/checkbox/node_modules/@babel/core/package.json
+24 silly found diff in packages/checkbox/node_modules/@babel/core/src/config/files/index-browser.ts
+24 silly found diff in packages/checkbox/node_modules/@babel/core/src/config/files/index.ts
+24 silly found diff in packages/checkbox/node_modules/@babel/core/src/config/resolve-targets-browser.ts
+24 silly found diff in packages/checkbox/node_modules/@babel/core/src/config/resolve-targets.ts
+24 silly found diff in packages/checkbox/node_modules/@babel/core/src/transform-file-browser.ts
+24 silly found diff in packages/checkbox/node_modules/@babel/core/src/transform-file.ts
+24 silly found diff in packages/checkbox/node_modules/@babel/core/src/transformation/util/clone-deep-browser.ts
+24 silly found diff in packages/checkbox/node_modules/@babel/core/src/transformation/util/clone-deep.ts
+24 silly found diff in packages/checkbox/src/checkbox.md
+25 verbose filtered diff [ 'packages/checkbox/node_modules/@babel/core/LICENSE',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/cache-contexts.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/caching.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/config-chain.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/config-descriptors.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/files/configuration.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/files/import.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/files/index-browser.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/files/index.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/files/module-types.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/files/package.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/files/plugins.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/files/types.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/files/utils.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/full.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/helpers/config-api.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/helpers/environment.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/index.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/item.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/partial.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/pattern-to-regex.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/plugin.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/printer.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/resolve-targets-browser.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/resolve-targets.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/util.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/validation/option-assertions.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/validation/options.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/validation/plugins.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/config/validation/removed.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/gensync-utils/async.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/gensync-utils/fs.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/index.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/parse.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/parser/index.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/parser/util/missing-plugin-helper.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/tools/build-external-helpers.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transform-ast.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transform-file-browser.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transform-file.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transform.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transformation/block-hoist-plugin.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transformation/file/file.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transformation/file/generate.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transformation/file/merge-map.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transformation/index.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transformation/normalize-file.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transformation/normalize-opts.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transformation/plugin-pass.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transformation/util/clone-deep-browser.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/lib/transformation/util/clone-deep.js',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/package.json',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/src/config/files/index-browser.ts',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/src/config/files/index.ts',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/src/config/resolve-targets-browser.ts',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/src/config/resolve-targets.ts',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/src/transform-file-browser.ts',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/src/transform-file.ts',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/src/transformation/util/clone-deep-browser.ts',
+25 verbose filtered diff   'packages/checkbox/node_modules/@babel/core/src/transformation/util/clone-deep.ts' ]
+26 silly checking diff packages/input
+27 silly found diff in packages/input/node_modules/.bin/babel
+27 silly found diff in packages/input/node_modules/.bin/babel-doctor
+27 silly found diff in packages/input/node_modules/.bin/babel-doctor.cmd
+27 silly found diff in packages/input/node_modules/.bin/babel-doctor.ps1
+27 silly found diff in packages/input/node_modules/.bin/babel-external-helpers
+27 silly found diff in packages/input/node_modules/.bin/babel-external-helpers.cmd
+27 silly found diff in packages/input/node_modules/.bin/babel-external-helpers.ps1
+27 silly found diff in packages/input/node_modules/.bin/babel-node
+27 silly found diff in packages/input/node_modules/.bin/babel-node.cmd
+27 silly found diff in packages/input/node_modules/.bin/babel-node.ps1
+27 silly found diff in packages/input/node_modules/.bin/babel.cmd
+27 silly found diff in packages/input/node_modules/.bin/babel.ps1
+27 silly found diff in packages/input/src/input.md
+28 verbose filtered diff [ 'packages/input/node_modules/.bin/babel',
+28 verbose filtered diff   'packages/input/node_modules/.bin/babel-doctor',
+28 verbose filtered diff   'packages/input/node_modules/.bin/babel-doctor.cmd',
+28 verbose filtered diff   'packages/input/node_modules/.bin/babel-doctor.ps1',
+28 verbose filtered diff   'packages/input/node_modules/.bin/babel-external-helpers',
+28 verbose filtered diff   'packages/input/node_modules/.bin/babel-external-helpers.cmd',
+28 verbose filtered diff   'packages/input/node_modules/.bin/babel-external-helpers.ps1',
+28 verbose filtered diff   'packages/input/node_modules/.bin/babel-node',
+28 verbose filtered diff   'packages/input/node_modules/.bin/babel-node.cmd',
+28 verbose filtered diff   'packages/input/node_modules/.bin/babel-node.ps1',
+28 verbose filtered diff   'packages/input/node_modules/.bin/babel.cmd',
+28 verbose filtered diff   'packages/input/node_modules/.bin/babel.ps1' ]
+29 silly checking diff packages/peach-design
+30 silly found diff in packages/peach-design/node_modules/.bin/babel
+30 silly found diff in packages/peach-design/node_modules/.bin/babel-doctor
+30 silly found diff in packages/peach-design/node_modules/.bin/babel-doctor.cmd
+30 silly found diff in packages/peach-design/node_modules/.bin/babel-doctor.ps1
+30 silly found diff in packages/peach-design/node_modules/.bin/babel-external-helpers
+30 silly found diff in packages/peach-design/node_modules/.bin/babel-external-helpers.cmd
+30 silly found diff in packages/peach-design/node_modules/.bin/babel-external-helpers.ps1
+30 silly found diff in packages/peach-design/node_modules/.bin/babel-node
+30 silly found diff in packages/peach-design/node_modules/.bin/babel-node.cmd
+30 silly found diff in packages/peach-design/node_modules/.bin/babel-node.ps1
+30 silly found diff in packages/peach-design/node_modules/.bin/babel.cmd
+30 silly found diff in packages/peach-design/node_modules/.bin/babel.ps1
+30 silly found diff in packages/peach-design/src/button/index.js
+30 silly found diff in packages/peach-design/src/checkbox/index.js
+30 silly found diff in packages/peach-design/src/input/index.js
+30 silly found diff in packages/peach-design/src/select/index.js
+31 verbose filtered diff [ 'packages/peach-design/node_modules/.bin/babel',
+31 verbose filtered diff   'packages/peach-design/node_modules/.bin/babel-doctor',
+31 verbose filtered diff   'packages/peach-design/node_modules/.bin/babel-doctor.cmd',
+31 verbose filtered diff   'packages/peach-design/node_modules/.bin/babel-doctor.ps1',
+31 verbose filtered diff   'packages/peach-design/node_modules/.bin/babel-external-helpers',
+31 verbose filtered diff   'packages/peach-design/node_modules/.bin/babel-external-helpers.cmd',
+31 verbose filtered diff   'packages/peach-design/node_modules/.bin/babel-external-helpers.ps1',
+31 verbose filtered diff   'packages/peach-design/node_modules/.bin/babel-node',
+31 verbose filtered diff   'packages/peach-design/node_modules/.bin/babel-node.cmd',
+31 verbose filtered diff   'packages/peach-design/node_modules/.bin/babel-node.ps1',
+31 verbose filtered diff   'packages/peach-design/node_modules/.bin/babel.cmd',
+31 verbose filtered diff   'packages/peach-design/node_modules/.bin/babel.ps1',
+31 verbose filtered diff   'packages/peach-design/src/button/index.js',
+31 verbose filtered diff   'packages/peach-design/src/checkbox/index.js',
+31 verbose filtered diff   'packages/peach-design/src/input/index.js',
+31 verbose filtered diff   'packages/peach-design/src/select/index.js' ]
+32 silly checking diff packages/peach-react-ui
+33 silly found diff in packages/peach-react-ui/README.md
+33 silly found diff in packages/peach-react-ui/__tests__/peach-react-ui.test.js
+33 silly found diff in packages/peach-react-ui/lib/peach-react-ui.js
+33 silly found diff in packages/peach-react-ui/package.json
+34 verbose filtered diff [ 'packages/peach-react-ui/lib/peach-react-ui.js',
+34 verbose filtered diff   'packages/peach-react-ui/package.json' ]
+35 silly checking diff packages/select
+36 silly no diff found in @peach-design/select
+37 verbose updated @peach-design/button
+38 verbose updated @peach-design/checkbox
+39 verbose updated @peach-design/input
+40 verbose updated peach-design
+41 verbose updated peach-react-ui
+42 verbose git-describe undefined => "@peach-design/checkbox@1.0.6-2-g783dd5b"
+43 silly git-describe parsed => {"lastTagName":"@peach-design/checkbox@1.0.6","lastVersion":"1.0.6","refCount":"2","sha":"783dd5b","isDirty":false}
+44 silly independent for @peach-design/button at D:\test\peach-design3\packages\button
+45 verbose getChangelogConfig using preset "conventional-changelog-angular"
+46 silly npa Result {
+46 silly npa   type: 'tag',
+46 silly npa   registry: true,
+46 silly npa   where: undefined,
+46 silly npa   raw: 'conventional-changelog-angular',
+46 silly npa   name: 'conventional-changelog-angular',
+46 silly npa   escapedName: 'conventional-changelog-angular',
+46 silly npa   scope: undefined,
+46 silly npa   rawSpec: '',
+46 silly npa   saveSpec: null,
+46 silly npa   fetchSpec: 'latest',
+46 silly npa   gitRange: undefined,
+46 silly npa   gitCommittish: undefined,
+46 silly npa   hosted: undefined }
+47 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+48 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+49 verbose independent increment 1.0.6 by patch
+50 silly independent for @peach-design/checkbox at D:\test\peach-design3\packages\checkbox
+51 verbose independent increment 1.0.6 by patch
+52 silly independent for @peach-design/input at D:\test\peach-design3\packages\input
+53 verbose independent increment 0.0.23 by patch
+54 silly independent for peach-design at D:\test\peach-design3\packages\peach-design
+55 verbose independent increment 0.0.29 by patch
+56 silly independent for peach-react-ui at D:\test\peach-design3\packages\peach-react-ui
+57 verbose independent increment 1.0.0 by patch
+58 info execute Skipping releases
+59 silly lifecycle No script for "preversion" in "peach-design3", continuing
+60 silly lifecycle No script for "preversion" in "@peach-design/button", continuing
+61 silly lifecycle No script for "preversion" in "@peach-design/checkbox", continuing
+62 silly lifecycle No script for "preversion" in "@peach-design/input", continuing
+63 silly lifecycle No script for "preversion" in "peach-react-ui", continuing
+64 silly lifecycle No script for "version" in "peach-react-ui", continuing
+65 silly independent for peach-react-ui at D:\test\peach-design3\packages\peach-react-ui
+66 silly lifecycle No script for "version" in "@peach-design/checkbox", continuing
+67 silly independent for @peach-design/checkbox at D:\test\peach-design3\packages\checkbox
+68 silly lifecycle No script for "version" in "@peach-design/button", continuing
+69 silly independent for @peach-design/button at D:\test\peach-design3\packages\button
+70 silly lifecycle No script for "version" in "@peach-design/input", continuing
+71 silly independent for @peach-design/input at D:\test\peach-design3\packages\input
+72 silly independent writing new entry: "## 1.0.1 (2021-07-21)\n\n**Note:** Version bump only for package peach-react-ui\n\n\n\n"
+73 silly independent writing new entry: "## [1.0.7](https://github.com/guobaogang/peach-design/compare/@peach-design/button@1.0.6...@peach-design/button@1.0.7) (2021-07-21)\n\n**Note:** Version bump only for package @peach-design/button\n\n\n\n"
+74 silly independent writing new entry: "## [1.0.7](https://github.com/guobaogang/peach-design/compare/@peach-design/checkbox@1.0.6...@peach-design/checkbox@1.0.7) (2021-07-21)\n\n**Note:** Version bump only for package @peach-design/checkbox\n\n\n\n"
+75 verbose independent wrote D:\test\peach-design3\packages\button\CHANGELOG.md
+76 verbose independent wrote D:\test\peach-design3\packages\checkbox\CHANGELOG.md
+77 verbose independent wrote D:\test\peach-design3\packages\peach-react-ui\CHANGELOG.md
+78 silly independent writing new entry: "## [0.0.24](https://github.com/guobaogang/peach-design/compare/@peach-design/input@0.0.23...@peach-design/input@0.0.24) (2021-07-21)\n\n**Note:** Version bump only for package @peach-design/input\n\n\n\n"
+79 verbose independent wrote D:\test\peach-design3\packages\input\CHANGELOG.md
+80 silly lifecycle No script for "preversion" in "peach-design", continuing
+81 silly lifecycle No script for "version" in "peach-design", continuing
+82 silly independent for peach-design at D:\test\peach-design3\packages\peach-design
+83 silly independent writing new entry: "## [0.0.30](https://github.com/guobaogang/peach-design/compare/peach-design@0.0.29...peach-design@0.0.30) (2021-07-21)\n\n**Note:** Version bump only for package peach-design\n\n\n\n"
+84 verbose independent wrote D:\test\peach-design3\packages\peach-design\CHANGELOG.md
+85 silly lifecycle No script for "version" in "peach-design3", continuing
+86 silly gitAdd [ 'packages/peach-react-ui/package.json',
+86 silly gitAdd   'packages/checkbox/package.json',
+86 silly gitAdd   'packages/checkbox/package-lock.json',
+86 silly gitAdd   'packages/button/package.json',
+86 silly gitAdd   'packages/button/package-lock.json',
+86 silly gitAdd   'packages/input/package.json',
+86 silly gitAdd   'packages/input/package-lock.json',
+86 silly gitAdd   'packages/button/CHANGELOG.md',
+86 silly gitAdd   'packages/checkbox/CHANGELOG.md',
+86 silly gitAdd   'packages/peach-react-ui/CHANGELOG.md',
+86 silly gitAdd   'packages/input/CHANGELOG.md',
+86 silly gitAdd   'packages/peach-design/package.json',
+86 silly gitAdd   'packages/peach-design/package-lock.json',
+86 silly gitAdd   'packages/peach-design/CHANGELOG.md' ]
+87 silly gitCommit chore(release): publish
+87 silly gitCommit
+87 silly gitCommit  - @peach-design/button@1.0.7
+87 silly gitCommit  - @peach-design/checkbox@1.0.7
+87 silly gitCommit  - @peach-design/input@0.0.24
+87 silly gitCommit  - peach-design@0.0.30
+87 silly gitCommit  - peach-react-ui@1.0.1
+88 verbose git [ 'commit',
+88 verbose git   '-F',
+88 verbose git   'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\b01e53c7-d985-40f8-b83c-85416a61264c\\lerna-commit.txt' ]
+89 silly gitTag @peach-design/button@1.0.7
+90 verbose git [ 'tag',
+90 verbose git   '@peach-design/button@1.0.7',
+90 verbose git   '-m',
+90 verbose git   '@peach-design/button@1.0.7' ]
+91 silly gitTag @peach-design/checkbox@1.0.7
+92 verbose git [ 'tag',
+92 verbose git   '@peach-design/checkbox@1.0.7',
+92 verbose git   '-m',
+92 verbose git   '@peach-design/checkbox@1.0.7' ]
+93 silly gitTag @peach-design/input@0.0.24
+94 verbose git [ 'tag',
+94 verbose git   '@peach-design/input@0.0.24',
+94 verbose git   '-m',
+94 verbose git   '@peach-design/input@0.0.24' ]
+95 silly gitTag peach-design@0.0.30
+96 verbose git [ 'tag', 'peach-design@0.0.30', '-m', 'peach-design@0.0.30' ]
+97 silly gitTag peach-react-ui@1.0.1
+98 verbose git [ 'tag', 'peach-react-ui@1.0.1', '-m', 'peach-react-ui@1.0.1' ]
+99 silly lifecycle No script for "postversion" in "@peach-design/button", continuing
+100 silly lifecycle No script for "postversion" in "@peach-design/checkbox", continuing
+101 silly lifecycle No script for "postversion" in "@peach-design/input", continuing
+102 silly lifecycle No script for "postversion" in "peach-design", continuing
+103 silly lifecycle No script for "postversion" in "peach-react-ui", continuing
+104 silly lifecycle No script for "postversion" in "peach-design3", continuing
+105 info git Pushing tags...
+106 silly gitPush origin master
+107 info publish Publishing packages to npm...
+108 notice Skipping all user and access validation due to third-party registry
+109 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+110 warn ENOLICENSE Packages @peach-design/button, @peach-design/checkbox, @peach-design/input, peach-design, and peach-react-ui are missing a license.
+110 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+110 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+111 silly getCurrentSHA
+112 verbose getCurrentSHA f170f158750fd9d5591156e7deaeb6386572b55e
+113 silly lifecycle No script for "prepublish" in "peach-design3", continuing
+114 silly lifecycle No script for "prepare" in "peach-design3", continuing
+115 silly lifecycle No script for "prepublishOnly" in "peach-design3", continuing
+116 silly lifecycle No script for "prepack" in "peach-design3", continuing
+117 verbose pack-directory packages\button
+118 verbose pack-directory packages\checkbox
+119 verbose pack-directory packages\input
+120 verbose pack-directory packages\peach-react-ui
+121 silly lifecycle No script for "prepublish" in "@peach-design/button", continuing
+122 silly lifecycle No script for "prepublish" in "@peach-design/checkbox", continuing
+123 silly lifecycle No script for "prepublish" in "@peach-design/input", continuing
+124 silly lifecycle No script for "prepublish" in "peach-react-ui", continuing
+125 silly lifecycle No script for "prepare" in "@peach-design/button", continuing
+126 silly lifecycle No script for "prepare" in "@peach-design/checkbox", continuing
+127 silly lifecycle No script for "prepare" in "@peach-design/input", continuing
+128 silly lifecycle No script for "prepare" in "peach-react-ui", continuing
+129 silly lifecycle No script for "prepublishOnly" in "@peach-design/checkbox", continuing
+130 silly lifecycle No script for "prepublishOnly" in "peach-react-ui", continuing
+131 silly lifecycle No script for "prepublishOnly" in "@peach-design/input", continuing
+132 silly lifecycle No script for "prepublishOnly" in "@peach-design/button", continuing
+133 silly lifecycle No script for "prepack" in "@peach-design/checkbox", continuing
+134 silly lifecycle No script for "prepack" in "@peach-design/input", continuing
+135 silly lifecycle No script for "prepack" in "peach-react-ui", continuing
+136 silly lifecycle No script for "prepack" in "@peach-design/button", continuing
+137 silly lifecycle No script for "postpack" in "peach-react-ui", continuing
+138 verbose packed packages\peach-react-ui
+139 silly lifecycle No script for "postpack" in "@peach-design/input", continuing
+140 verbose packed packages\input
+141 silly lifecycle No script for "postpack" in "@peach-design/button", continuing
+142 verbose packed packages\button
+143 silly lifecycle No script for "postpack" in "@peach-design/checkbox", continuing
+144 verbose packed packages\checkbox
+145 verbose pack-directory packages\peach-design
+146 silly lifecycle No script for "prepublish" in "peach-design", continuing
+147 silly lifecycle No script for "prepare" in "peach-design", continuing
+148 silly lifecycle No script for "prepublishOnly" in "peach-design", continuing
+149 silly lifecycle No script for "prepack" in "peach-design", continuing
+150 silly lifecycle No script for "postpack" in "peach-design", continuing
+151 verbose packed packages\peach-design
+152 silly lifecycle No script for "postpack" in "peach-design3", continuing
+153 verbose publish @peach-design/button
+154 verbose publish @peach-design/checkbox
+155 verbose publish @peach-design/input
+156 verbose publish peach-react-ui
+157 silly FetchError: request to https://registry.npm.org/peach-react-ui failed, reason: Hostname/IP does not match certificate's altnames: Host: registry.npm.org. is not in the cert's altnames: DNS:npmsecure.org, DNS:www.npmsecure.org
+157 silly     at ClientRequest.req.on.er (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass-fetch\lib\index.js:97:14)
+157 silly     at ClientRequest.emit (events.js:193:13)
+157 silly     at TLSSocket.socketErrorListener (_http_client.js:397:9)
+157 silly     at TLSSocket.emit (events.js:198:15)
+157 silly     at emitErrorNT (internal/streams/destroy.js:91:8)
+157 silly     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+157 silly     at processTicksAndRejections (internal/process/task_queues.js:81:17)
+157 silly  { FetchError: request to https://registry.npm.org/peach-react-ui failed, reason: Hostname/IP does not match certificate's altnames: Host: registry.npm.org. is not in the cert's altnames: DNS:npmsecure.org, DNS:www.npmsecure.org
+157 silly     at ClientRequest.req.on.er (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass-fetch\lib\index.js:97:14)
+157 silly     at ClientRequest.emit (events.js:193:13)
+157 silly     at TLSSocket.socketErrorListener (_http_client.js:397:9)
+157 silly     at TLSSocket.emit (events.js:198:15)
+157 silly     at emitErrorNT (internal/streams/destroy.js:91:8)
+157 silly     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+157 silly     at processTicksAndRejections (internal/process/task_queues.js:81:17)
+157 silly   stack:
+157 silly    "FetchError: request to https://registry.npm.org/peach-react-ui failed, reason: Hostname/IP does not match certificate's altnames: Host: registry.npm.org. is not in the cert's altnames: DNS:npmsecure.org, DNS:www.npmsecure.org\n    at ClientRequest.req.on.er (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\lerna\\node_modules\\minipass-fetch\\lib\\index.js:97:14)\n    at ClientRequest.emit (events.js:193:13)\n    at TLSSocket.socketErrorListener (_http_client.js:397:9)\n    at TLSSocket.emit (events.js:198:15)\n    at emitErrorNT (internal/streams/destroy.js:91:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)\n    at processTicksAndRejections (internal/process/task_queues.js:81:17)",
+157 silly   code: 'FETCH_ERROR',
+157 silly   reason:
+157 silly    "Host: registry.npm.org. is not in the cert's altnames: DNS:npmsecure.org, DNS:www.npmsecure.org",
+157 silly   host: 'registry.npm.org',
+157 silly   cert:
+157 silly    { subject: [Object: null prototype] { CN: 'npmsecure.org' },
+157 silly      issuer:
+157 silly       [Object: null prototype] {
+157 silly         C: 'GB',
+157 silly         ST: 'Greater Manchester',
+157 silly         L: 'Salford',
+157 silly         O: 'Sectigo Limited',
+157 silly         CN: 'Sectigo RSA Domain Validation Secure Server CA' },
+157 silly      subjectaltname: 'DNS:npmsecure.org, DNS:www.npmsecure.org',
+157 silly      infoAccess:
+157 silly       [Object: null prototype] { 'CA Issuers - URI': [Array], 'OCSP - URI': [Array] },
+157 silly      modulus:
+157 silly       '9EDE9AFD01944BCB4E57F814207C17BDBE8FBFF5E4FF2EB0A13E3855F7E91DB8AB80248D070AD2C1A1E117F14BF1763C5834B38733F88DBCE799924BC6C5705396E148017A1C152C5C0F5AF68D96697ED4973A5389D6EA6A1EE114CBB96B140E0376CD09BCE367BB9E8ECB446D95BCD27B6DB565B3F921BB1B6AD046BD95DB67702085B794834E77A69525020855BA79FD99E8916B8DE8AFFBB51A0FF00BCE0681E39BA859F8A93CD08BC946040E3871CD0A7758C18B675429BBB238934DC2D50D73F7D965CD8F62561423B994C12F27A1AC33BA017DB85F1C7805A845D6FA11E0B00D629650F24E237D54569650AEA1EBC1BE1C501F003B877F246685A5F067',
+157 silly      bits: 2048,
+157 silly      exponent: '0x10001',
+157 silly      pubkey:
+157 silly       <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 9e de 9a fd 01 94 4b cb 4e 57 f8 14 20 7c 17 bd be ... 244 more bytes>,
+157 silly      valid_from: 'Jan 16 00:00:00 2021 GMT',
+157 silly      valid_to: 'Jan 23 23:59:59 2022 GMT',
+157 silly      fingerprint:
+157 silly       '8A:F4:46:B4:5F:B4:D8:9A:1C:2B:BA:E7:14:1D:90:DA:2A:36:7E:09',
+157 silly      fingerprint256:
+157 silly       '7E:25:A1:C4:1E:A8:2C:8D:93:27:38:FA:1C:72:ED:01:D8:82:12:91:A2:BF:28:02:1D:0D:99:4B:49:AB:2C:8B',
+157 silly      ext_key_usage: [ '1.3.6.1.5.5.7.3.1', '1.3.6.1.5.5.7.3.2' ],
+157 silly      serialNumber: '7E2ADE78D4679C1240027F00B31B6F55',
+157 silly      raw:
+157 silly       <Buffer 30 82 05 be 30 82 04 a6 a0 03 02 01 02 02 10 7e 2a de 78 d4 67 9c 12 40 02 7f 00 b3 1b 6f 55 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 81 8f 31 ... 1424 more bytes>,
+157 silly      issuerCertificate:
+157 silly       { subject: [Object],
+157 silly         issuer: [Object],
+157 silly         infoAccess: [Object],
+157 silly         modulus:
+157 silly          'D67333D6D73C20D000D21745B8D63E07A23FC741EE3230C9B06CFDF49FCB12980F2D3F8D4D010C820F177F622EE9B84879FB16834EADD7322593B707BFB9503FA94CC3402AE939FFD981CA1F163241DA8026B9237A87201EE3FF209A3C95446F8775069040B4329316091008233ED2DD870F6F5D51146A0A69C54F017269CFD3934C6D04A0A31B827EB19AB9EDC59EC537789F9A0834FB562E58C4090E06645BBC37DCF19F2868A856B092A35C9FBB8898081B241DAB3085AEAFB02E9E7A9DC1C0421CE202F0EAE04AD2EF900EB4C14016F06F85424A64F7A430A0FEBF2EA3275A8E8B58B8ADC319178463ED6F56FD83CB6034C474BEE69DDBE1E4E5CA0C5F15',
+157 silly         bits: 2048,
+157 silly         exponent: '0x10001',
+157 silly         pubkey:
+157 silly          <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 d6 73 33 d6 d7 3c 20 d0 00 d2 17 45 b8 d6 3e 07 a2 ... 244 more bytes>,
+157 silly         valid_from: 'Nov  2 00:00:00 2018 GMT',
+157 silly         valid_to: 'Dec 31 23:59:59 2030 GMT',
+157 silly         fingerprint:
+157 silly          '33:E4:E8:08:07:20:4C:2B:61:82:A3:A1:4B:59:1A:CD:25:B5:F0:DB',
+157 silly         fingerprint256:
+157 silly          '7F:A4:FF:68:EC:04:A9:9D:75:28:D5:08:5F:94:90:7F:4D:1D:D1:C5:38:1B:AC:DC:83:2E:D5:C9:60:21:46:76',
+157 silly         ext_key_usage: [Array],
+157 silly         serialNumber: '7D5B5126B476BA11DB74160BBC530DA7',
+157 silly         raw:
+157 silly          <Buffer 30 82 06 13 30 82 03 fb a0 03 02 01 02 02 10 7d 5b 51 26 b4 76 ba 11 db 74 16 0b bc 53 0d a7 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0c 05 00 30 81 88 31 ... 1509 more bytes>,
+157 silly         issuerCertificate: [Object] } },
+157 silly   errno: 'FETCH_ERROR',
+157 silly   type: 'system' }
+158 error FETCH_ERROR request to https://registry.npm.org/peach-react-ui failed, reason: Hostname/IP does not match certificate's altnames: Host: registry.npm.org. is not in the cert's altnames: DNS:npmsecure.org, DNS:www.npmsecure.org
+159 error FetchError: request to https://registry.npm.org/peach-react-ui failed, reason: Hostname/IP does not match certificate's altnames: Host: registry.npm.org. is not in the cert's altnames: DNS:npmsecure.org, DNS:www.npmsecure.org
+159 error     at ClientRequest.req.on.er (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass-fetch\lib\index.js:97:14)
+159 error     at ClientRequest.emit (events.js:193:13)
+159 error     at TLSSocket.socketErrorListener (_http_client.js:397:9)
+159 error     at TLSSocket.emit (events.js:198:15)
+159 error     at emitErrorNT (internal/streams/destroy.js:91:8)
+159 error     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)

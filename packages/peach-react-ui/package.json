@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.org"
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/guobaogang/peach-design/issues"
   },
-  "homepage": "https://github.com/guobaogang/peach-design#readme"
+  "homepage": "https://github.com/guobaogang/peach-design#readme",
+  "gitHead": "f170f158750fd9d5591156e7deaeb6386572b55e"
 }

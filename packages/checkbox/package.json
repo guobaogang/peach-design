@@ -38,5 +38,5 @@
     "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2"
   },
-  "gitHead": "a4ff3b0e0a0cc73b5feff984d3968dc418af0b2c"
+  "gitHead": "f170f158750fd9d5591156e7deaeb6386572b55e"
 }

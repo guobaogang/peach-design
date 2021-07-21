@@ -26,7 +26,7 @@
     "@peach-design/input": "^0.0.24",
     "@peach-design/select": "^1.0.1"
   },
-  "gitHead": "a4ff3b0e0a0cc73b5feff984d3968dc418af0b2c",
+  "gitHead": "f170f158750fd9d5591156e7deaeb6386572b55e",
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/preset-react": "^7.14.5",
